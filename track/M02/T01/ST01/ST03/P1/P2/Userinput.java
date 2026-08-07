@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Userinput1 {
+public class Userinput {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -14,7 +14,6 @@ public class Userinput1 {
         System.out.println("Height : " + height);
 
         scan.nextLine();
-
         System.out.println("Enter the Full name : ");
         String fname = scan.nextLine();
         System.out.println("Full name : " + fname);
