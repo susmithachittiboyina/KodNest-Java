@@ -35,6 +35,11 @@ class MethodOverloading {
     public static void main(String[] args) {
         Addition a1 = new Addition();
         System.out.println(a1.add(10, 20));
-        System.out.println(a1.add(10, 20, 5));
+        System.out.println(a1.add(3.5, 4.5));
+        System.out.println(a1.add(10, 5.5));
+        System.out.println(a1.add(3.5, 4));
+        System.out.println(a1.add(3, 4, 5));
+        System.out.println(a1.add(4.5, 6.5, 5.5));
+        System.out.println(a1.add(3, 6, 4.5));
     }
 }
