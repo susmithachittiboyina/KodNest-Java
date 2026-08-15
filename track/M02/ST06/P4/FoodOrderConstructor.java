@@ -21,7 +21,7 @@ class FoodOrder {
     }
 }
 
-public class FoodOrder {
+public class FoodOrderConstructor {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
